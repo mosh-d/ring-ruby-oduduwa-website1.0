@@ -19,9 +19,9 @@ export default function ContactMainSection() {
       >
         <h1 className="text-6xl font-bold">Get In Touch</h1>
         <p className="text-2xl font-semibold">
-          Have any questions or need assistance? The team at Ring Ruby, Eso is
-          always ready to ensure your stay is flawless. Don't hesitate to reach
-          out—we're here to help with anything you need.
+          Have any questions or need assistance? The team at Ring Ruby, Oduduwa
+          is always ready to ensure your stay is flawless. Don't hesitate to
+          reach out—we're here to help with anything you need.
         </p>
       </div>
       <div
@@ -47,10 +47,10 @@ export default function ContactMainSection() {
           >
             <RiPhoneLine size="3rem" />
             <a
-              href="tel:+2347012931037"
+              href="tel:+2347017393412"
               className="border-b border-[color:var(--text-color)]/30 text-xl"
             >
-              +234 701 293 1037
+              +234 701 739 3412
             </a>
           </div>
           <div
@@ -59,10 +59,10 @@ export default function ContactMainSection() {
           >
             <RiMailLine size="3rem" />
             <a
-              href="mailto:info@ringrubyhotelesoikejagra.com"
+              href="mailto:info@ringrubyhoteloduduwaikejagra.com"
               className="border-b border-[color:var(--text-color)]/30 text-xl"
             >
-              info@ringrubyhotelesoikejagra.com
+              info@ringrubyhoteloduduwaikejagra.com
             </a>
           </div>
           <div

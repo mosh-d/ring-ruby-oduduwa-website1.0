@@ -29,7 +29,7 @@ export default function RootLayout() {
   const [roomTypeId, setRoomTypeId] = useState(null);
   const [totalPayment, setTotalPayment] = useState(0);
   const [roomPrices, setRoomPrices] = useState({});
-  const [branchId] = useState(8); // Eso branch ID
+  const [branchId] = useState(9); // Oduduwa branch ID
   const [roomTypes, setRoomTypes] = useState([]);
   const [isLoadingRooms, setIsLoadingRooms] = useState(true);
 
@@ -197,11 +197,12 @@ export default function RootLayout() {
 
   // Get current page metadata
   const getPageMetadata = () => {
-    const baseUrl = "https://ringrubyeso.fivecloverhotels.com";
+    const baseUrl = "https://ringrubyoduduwa.fivecloverhotels.com";
     const defaultMetadata = {
-      title: "Ring Ruby Hotel Eso | Luxury Accommodation in Ikeja GRA, Lagos",
+      title:
+        "Ring Ruby Hotel Oduduwa | Luxury Accommodation in Ikeja GRA, Lagos",
       description:
-        "Experience luxury and comfort at Ring Ruby Hotel Eso. Book your stay at our premium hotel in Ikeja GRA, Lagos.",
+        "Experience luxury and comfort at Ring Ruby Hotel Oduduwa. Book your stay at our premium hotel in Ikeja GRA, Lagos.",
       url: `${baseUrl}${location.pathname}`,
       type: "website",
       image: "/ring-ruby-logo.webp",
@@ -209,34 +210,35 @@ export default function RootLayout() {
 
     const pageMetadata = {
       "/": {
-        title: "Ring Ruby Hotel Eso | Luxury Accommodation in Ikeja GRA, Lagos",
+        title:
+          "Ring Ruby Hotel Oduduwa | Luxury Accommodation in Ikeja GRA, Lagos",
         description:
-          "Experience luxury and comfort at Ring Ruby Hotel Eso. Book your stay at our premium hotel in Ikeja GRA, Lagos.",
+          "Experience luxury and comfort at Ring Ruby Hotel Oduduwa. Book your stay at our premium hotel in Ikeja GRA, Lagos.",
       },
       "/about": {
-        title: "About Us | Ring Ruby Hotel Eso",
+        title: "About Us | Ring Ruby Hotel Oduduwa",
         description:
-          "Discover the story behind Ring Ruby Hotel Eso and our commitment to providing exceptional hospitality in Ikeja GRA, Lagos.",
+          "Discover the story behind Ring Ruby Hotel Oduduwa and our commitment to providing exceptional hospitality in Ikeja GRA, Lagos.",
       },
       "/rooms": {
-        title: "Our Rooms | Ring Ruby Hotel Eso",
+        title: "Our Rooms | Ring Ruby Hotel Oduduwa",
         description:
-          "Explore our luxurious rooms at Ring Ruby Hotel Eso, designed for your comfort and relaxation.",
+          "Explore our luxurious rooms at Ring Ruby Hotel Oduduwa, designed for your comfort and relaxation.",
       },
       "/gallery": {
-        title: "Photo Gallery | Ring Ruby Hotel Eso",
+        title: "Photo Gallery | Ring Ruby Hotel Oduduwa",
         description:
-          "View our photo gallery showcasing the luxurious facilities and comfortable accommodations at Ring Ruby Hotel Eso.",
+          "View our photo gallery showcasing the luxurious facilities and comfortable accommodations at Ring Ruby Hotel Oduduwa.",
       },
       "/contact": {
-        title: "Contact Us | Ring Ruby Hotel Eso",
+        title: "Contact Us | Ring Ruby Hotel Oduduwa",
         description:
-          "Get in touch with Ring Ruby Hotel Eso. Our friendly staff is ready to assist with your booking and inquiries.",
+          "Get in touch with Ring Ruby Hotel Oduduwa. Our friendly staff is ready to assist with your booking and inquiries.",
       },
       "/booking": {
-        title: "Book Your Stay | Ring Ruby Hotel Eso",
+        title: "Book Your Stay | Ring Ruby Hotel Oduduwa",
         description:
-          "Book your luxurious stay at Ring Ruby Hotel Eso. Best rates guaranteed for our premium accommodations in Ikeja GRA.",
+          "Book your luxurious stay at Ring Ruby Hotel Oduduwa. Best rates guaranteed for our premium accommodations in Ikeja GRA.",
       },
     };
 
@@ -260,15 +262,16 @@ export default function RootLayout() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Hotel",
-            name: "Ring Ruby Hotel Eso",
+            name: "Ring Ruby Hotel Oduduwa",
             description:
-              "Experience luxury and comfort at Ring Ruby Hotel Eso. Book your stay at our premium hotel in Ikeja GRA, Lagos.",
+              "Experience luxury and comfort at Ring Ruby Hotel Oduduwa. Book your stay at our premium hotel in Ikeja GRA, Lagos.",
             image:
-              "https://ringrubyeso.fivecloverhotels.com/ring%20ruby%20logo.webp",
-            url: "https://ringrubyeso.fivecloverhotels.com",
+              "https://ringrubyoduduwa.fivecloverhotels.com/ring%20ruby%20logo.webp",
+            url: "https://ringrubyoduduwa.fivecloverhotels.com",
             address: {
               "@type": "PostalAddress",
-              streetAddress: "4b, Eso Close, Oduduwa Crescent, Ikeja GRA",
+              streetAddress:
+                "7, Sade Onigbanjo Close, off 34, Oduduwa Way, Ikeja GRA",
               addressLocality: "Ikeja GRA",
               addressRegion: "Lagos",
               postalCode: "100001",
@@ -276,8 +279,8 @@ export default function RootLayout() {
             },
             geo: {
               "@type": "GeoCoordinates",
-              latitude: 6.574213898959575,
-              longitude: 3.3538888865090737,
+              latitude: 6.572854524694361,
+              longitude: 3.355539995781598,
             },
             priceRange: "₦₦",
             starRating: {
@@ -285,8 +288,8 @@ export default function RootLayout() {
               ratingValue: "4.5",
               bestRating: "5",
             },
-            telephone: "+2347012931037",
-            email: "info@ringrubyhotelesoikejagra.com",
+            telephone: "+2347017393412",
+            email: "info@ringrubyhoteloduduwaikejagra.com",
             sameAs: [
               "https://www.facebook.com/RingrubyHotel?_rdc=1&_rdr#",
               "https://www.instagram.com/ringruby_hotel/",

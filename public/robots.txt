@@ -1,4 +1,4 @@
-# Ring Ruby Hotel Eso - robots.txt
+# Ring Ruby Hotel Oduduwa - robots.txt
 User-agent: *
 Allow: /
 Disallow: /admin/
@@ -6,7 +6,7 @@ Disallow: /api/
 Disallow: /*?*
 
 # Sitemap location
-Sitemap: https://ringrubyeso.fivecloverhotels.com/sitemap.xml
+Sitemap: https://ringrubyoduduwa.fivecloverhotels.com/sitemap.xml
 
 Crawl-delay: 10
 

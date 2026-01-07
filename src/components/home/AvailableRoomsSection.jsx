@@ -41,6 +41,10 @@ import superiorRoomImage from "../../assets/room-images/superior/superior.jpg";
 import superiorRoomImage2 from "../../assets/room-images/superior/superior-2.jpg";
 import superiorRoomImage3 from "../../assets/room-images/superior/superior-3.jpg";
 import superiorRoomImage4 from "../../assets/room-images/superior/superior-4.jpg";
+import deluxeRoomImage from "../../assets/room-images/deluxe/deluxe.jpg";
+import deluxeRoomImage2 from "../../assets/room-images/deluxe/deluxe-2.jpg";
+import deluxeRoomImage3 from "../../assets/room-images/deluxe/deluxe-3.jpg";
+import deluxeRoomImage4 from "../../assets/room-images/deluxe/deluxe-4.jpg";
 
 // standard room images
 const standardRoomImages = [
@@ -66,11 +70,20 @@ const superiorRoomImages = [
   superiorRoomImage4,
 ];
 
+// deluxe room images
+const deluxeRoomImages = [
+  deluxeRoomImage,
+  deluxeRoomImage2,
+  deluxeRoomImage3,
+  deluxeRoomImage4,
+];
+
 // Room type to gallery images mapping
 const roomGalleryImages = {
   Standard: standardRoomImages,
   Executive: executiveRoomImages,
   Superior: superiorRoomImages,
+  Deluxe: deluxeRoomImages,
 };
 
 // Room type to image mapping
@@ -78,6 +91,7 @@ const roomTypeImages = {
   Standard: standardRoomImage,
   Executive: executiveRoomImage,
   Superior: superiorRoomImage,
+  Deluxe: deluxeRoomImage,
 };
 
 const useSharedContext = () => {

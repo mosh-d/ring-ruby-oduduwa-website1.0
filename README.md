@@ -1,10 +1,10 @@
-# Ring Ruby Eso
+# Ring Ruby Oduduwa
 
-Ring Ruby Hotel Eso, Ikeja GRA frontend application.
+Ring Ruby Hotel Oduduwa, Ikeja GRA frontend application.
 
 ## Branch Information
 
-- **Branch ID**: 8
-- **Room Types**: Standard (27), Executive (28), Superior (29)
-- **Location**: 4b, Eso Close, Oduduwa Crescent, Ikeja GRA, Lagos
-- **Website**: https://ringrubyeso.fivecloverhotels.com
+- **Branch ID**: 9
+- **Room Types**: Standard (30), Executive (31), Superior (32), Deluxe (33)
+- **Location**: 7, Sade Onigbanjo Close, off 34, Oduduwa Way, Ikeja GRA, Lagos
+- **Website**: https://ringrubyoduduwa.fivecloverhotels.com

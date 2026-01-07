@@ -16,12 +16,13 @@ export default function AboutMainSection() {
             Seamless Comfort and Hospitality
           </h1>
           <p className="text-2xl">
-            Ring Ruby, Eso seamlessly blends modern comfort with the warmth of
-            West African hospitality, offering a unique and inviting experience
-            for our esteemed guests. Located in the serene and upscale Ikeja GRA
-            area of Lagos, our hotel offers a balanced mix of relaxation,
-            workspaces, and proximity to popular destinations, making it a top
-            choice for travelers seeking comfort and convenience in Ikeja GRA.
+            Ring Ruby, Oduduwa seamlessly blends modern comfort with the warmth
+            of West African hospitality, offering a unique and inviting
+            experience for our esteemed guests. Located in the serene and
+            upscale Ikeja GRA area of Lagos, our hotel offers a balanced mix of
+            relaxation, workspaces, and proximity to popular destinations,
+            making it a top choice for travelers seeking comfort and convenience
+            in Ikeja GRA.
           </p>
         </div>
         <div data-component="Block2" className="flex flex-col w-full">

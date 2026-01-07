@@ -7,9 +7,10 @@ import { IoRefresh } from "react-icons/io5";
 const API_BASE_URL = "https://five-clover-shared-backend.onrender.com";
 
 const ROOM_TYPE_MAP = {
-  standard: 27,
-  executive: 28,
-  superior: 29,
+  standard: 30,
+  executive: 31,
+  superior: 32,
+  deluxe: 33,
 };
 
 export default function AdminOverviewPage() {
@@ -176,6 +177,18 @@ export default function AdminOverviewPage() {
               onClick={() => setRoomType("superior")}
             >
               SUPERIOR
+            </li>
+          )}
+          {roomType === "deluxe" ? (
+            <li className="bg-[color:var(--emphasis)] text-[color:var(--white)] px-2 py-1 cursor-pointer">
+              DELUXE
+            </li>
+          ) : (
+            <li
+              className="border-b-[1px] border-[color:var(--emphasis)] cursor-pointer"
+              onClick={() => setRoomType("deluxe")}
+            >
+              DELUXE
             </li>
           )}
         </menu>

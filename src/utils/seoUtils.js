@@ -2,11 +2,11 @@ export const generateHotelSchema = (hotelData = {}) => {
   const defaultData = {
     "@context": "https://schema.org",
     "@type": "Hotel",
-    name: "Ring Ruby Hotel Eso",
+    name: "Ring Ruby Hotel Oduduwa",
     description:
-      "Luxury hotel accommodation at Ikeja GRA, Lagos. Experience comfort and excellent service at Ring Ruby Hotel Eso.",
-    url: "https://ringrubyeso.fivecloverhotels.com",
-    logo: "https://ringrubyeso.fivecloverhotels.com/ring%20ruby%20logo.webp",
+      "Luxury hotel accommodation at Ikeja GRA, Lagos. Experience comfort and excellent service at Ring Ruby Hotel Oduduwa.",
+    url: "https://ringrubyoduduwa.fivecloverhotels.com",
+    logo: "https://ringrubyoduduwa.fivecloverhotels.com/ring%20ruby%20logo.webp",
     priceRange: "$$",
     starRating: {
       "@type": "Rating",
@@ -15,18 +15,18 @@ export const generateHotelSchema = (hotelData = {}) => {
     },
     address: {
       "@type": "PostalAddress",
-      streetAddress: "4b, Eso Close, Oduduwa Crescent, Ikeja GRA",
+      streetAddress: "7, Sade Onigbanjo Close, off 34, Oduduwa Way, Ikeja GRA",
       addressLocality: "Lagos",
       postalCode: "100001",
       addressCountry: "NG",
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: "6.574213898959575",
-      longitude: "3.3538888865090737",
+      latitude: "6.572854524694361",
+      longitude: "3.355539995781598",
     },
-    telephone: "+2347012931037",
-    email: "info@ringrubyhotelesoikejagra.com",
+    telephone: "+2347017393412",
+    email: "info@ringrubyhoteloduduwaikejagra.com",
     sameAs: [
       "https://www.facebook.com/RingrubyHotel?_rdc=1&_rdr#",
       "https://www.instagram.com/ringruby_hotel/",
@@ -60,13 +60,13 @@ export const generateBreadcrumbSchema = (items = []) => {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://ringrubyeso.fivecloverhotels.com",
+      item: "https://ringrubyoduduwa.fivecloverhotels.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Rooms",
-      item: "https://ringrubyeso.fivecloverhotels.com/rooms",
+      item: "https://ringrubyoduduwa.fivecloverhotels.com/rooms",
     },
   ];
 
