@@ -1,5 +1,5 @@
 import { NavLink, useNavigate } from "react-router-dom";
-import Logo from "../../assets/ring-ruby-logo.png";
+import Logo from "../../assets/ring-ruby-logo-2.png";
 import { logout } from "../../utils/auth";
 
 export default function AdminTopBar() {
