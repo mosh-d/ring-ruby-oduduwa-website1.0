@@ -7,6 +7,7 @@ import axios from "axios";
 import { generateHotelSchema } from "../utils/seoUtils";
 import SEO from "../components/seo/SEO";
 import SafeHelmet from "../components/seo/SafeHelmet";
+import SchemaMarkup from "../components/shared/SchemaMarkup";
 
 const API_BASE_URL = "https://five-clover-shared-backend.onrender.com";
 
@@ -263,46 +264,8 @@ export default function RootLayout() {
         <meta property="og:url" content={metadata.url} />
         <meta property="og:type" content={metadata.type} />
         <meta property="og:image" content={metadata.image} />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Hotel",
-            name: "Ring Ruby Hotel Oduduwa",
-            description:
-              "Experience luxury and comfort at Ring Ruby Hotel Oduduwa. Book your stay at our premium hotel in Ikeja GRA, Lagos.",
-            image:
-              "https://ringrubyoduduwa.fivecloverhotels.com/ring%20ruby%20logo.webp",
-            url: "https://ringrubyoduduwa.fivecloverhotels.com",
-            address: {
-              "@type": "PostalAddress",
-              streetAddress:
-                "7, Sade Onigbanjo Close, off 34, Oduduwa Way, Ikeja GRA",
-              addressLocality: "Ikeja GRA",
-              addressRegion: "Lagos",
-              postalCode: "100001",
-              addressCountry: "NG",
-            },
-            geo: {
-              "@type": "GeoCoordinates",
-              latitude: 6.572854524694361,
-              longitude: 3.355539995781598,
-            },
-            priceRange: "₦₦",
-            starRating: {
-              "@type": "Rating",
-              ratingValue: "4.5",
-              bestRating: "5",
-            },
-            telephone: "+2347017393412",
-            email: "info@ringrubyhoteloduduwaikejagra.com",
-            sameAs: [
-              "https://www.facebook.com/RingrubyHotel?_rdc=1&_rdr#",
-              "https://www.instagram.com/ringruby_hotel/",
-              "https://twitter.com/fivecloverhotel",
-            ],
-          })}
-        </script>
       </SafeHelmet>
+      <SchemaMarkup branchId={branchId} />
       <header>{!isHome && <MainNavBar />}</header>
       <main>
         <Outlet context={contextValue} />
