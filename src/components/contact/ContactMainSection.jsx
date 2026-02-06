@@ -4,7 +4,6 @@ import {
   RiTiktokLine,
   RiFacebookLine,
   RiInstagramLine,
-  RiTwitterXLine,
   RiPhoneLine,
   RiWhatsappLine,
   RiMailLine,
@@ -105,18 +104,6 @@ export default function ContactMainSection() {
               rel="noopener noreferrer"
             >
               @ringrubyhotels
-            </a>
-          </div>
-          <div
-            data-component="ContactItem"
-            className="flex gap-[1.2rem] items-center"
-          >
-            <RiTwitterXLine size="3rem" />
-            <a
-              href=""
-              className="border-b border-[color:var(--text-color)]/30 text-xl"
-            >
-              @fivecloverhotel
             </a>
           </div>
         </div>
