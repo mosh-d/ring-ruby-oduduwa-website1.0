@@ -1,4 +1,5 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
+import { useWebSocketContext } from "../context/WebSocketContext";
 import axios from "axios";
 import { IoRefresh, IoClose, IoFilter } from "react-icons/io5";
 import Button from "../components/shared/Button";
@@ -40,6 +41,7 @@ const testLocalConnection = async () => {
 })();
 
 export default function AdminBookingsPage() {
+  const { subscribe } = useWebSocketContext();
   const [bookings, setBookings] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -206,9 +208,20 @@ export default function AdminBookingsPage() {
     }
   };
 
+    // WebSocket handler - refetch data instantly
+  const handleRoomsUpdated = useCallback((data) => {
+    console.log('📡 [WebSocket] Update received:', data);
+    fetchBookings(true);
+  }, []);
+
+    useEffect(() => {
+    const unsubscribe = subscribe(handleRoomsUpdated, 'rooms');
+    return unsubscribe;
+  }, [handleRoomsUpdated, subscribe]);
+
   useEffect(() => {
     fetchBookings();
-    const interval = setInterval(() => fetchBookings(true), 30000);
+    const interval = setInterval(() => fetchBookings(true), 15000);
     return () => clearInterval(interval);
   }, []);
 
