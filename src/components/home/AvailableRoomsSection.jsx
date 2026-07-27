@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useState, useEffect, useCallback } from "react";
 import { useWebSocketContext } from "../../context/WebSocketContext";
 import axios from "axios";
+import { SERVER_BASE_URL } from "../../utils/server-config";
 import CustomInput from "../shared/CustomInput";
 import Button from "../shared/Button";
 import GalleryModal from "../shared/GalleryModal";
@@ -139,7 +140,7 @@ const useSharedContext = () => {
   return context;
 };
 
-const API_BASE_URL = "https://five-clover-shared-backend.onrender.com";
+const API_BASE_URL = SERVER_BASE_URL;
 
 const amenityIcons = {
   free_wifi: <IoWifiOutline size="2.5rem" />,
