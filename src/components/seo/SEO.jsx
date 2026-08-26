@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet";
 
 const SEO = ({
   title = "Ringruby Hotel Oduduwa | Luxury Accommodation in Ikeja GRA, Lagos",
-  description = "Experience luxury and comfort at Ringruby Hotel Oduduwa. Book your stay at our premium hotel in Ikeja GRA, Lagos.",
+  description = "Ring Ruby Hotel Oduduwa provides upscale comfort in Ikeja GRA, on Sade Onigbanjo Close off Oduduwa Way.",
   keywords = "hotel, lagos, accommodation, ringruby, oduduwa, ikeja gra, oduduwa way, luxury hotel, nigeria, business hotel, vacation",
   image = 'https://oduduwa.ringrubyhotel.com/ring-ruby-logo.webp',
   url = typeof window !== "undefined"

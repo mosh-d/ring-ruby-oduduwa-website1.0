@@ -16,13 +16,7 @@ export default function AboutMainSection() {
             Seamless Comfort and Hospitality
           </h1>
           <p className="text-3xl">
-            Ringruby, Oduduwa seamlessly blends modern comfort with the warmth
-            of West African hospitality, offering a unique and inviting
-            experience for our esteemed guests. Located in the serene and
-            upscale Ikeja GRA area of Lagos, our hotel offers a balanced mix of
-            relaxation, workspaces, and proximity to popular destinations,
-            making it a top choice for travelers seeking comfort and convenience
-            in Ikeja GRA.
+            Ringruby Oduduwa brings modern comfort and West African hospitality together in the heart of Ikeja GRA. Guests get a genuinely restful base, close to the neighborhood's best without losing the calm that makes GRA distinctive.
           </p>
         </div>
         <div data-component="Block2" className="flex flex-col w-full">
@@ -41,19 +35,11 @@ export default function AboutMainSection() {
               data-component="Block2Text"
               className="flex flex-col gap-[1.8rem] font-secondary bg-[color:var(--background-color-2)] w-[100%] p-[12rem] max-md:p-[6rem] max-sm:p-[4rem]"
             >
-              <h1 className="text-6xl font-bold">
+              <h2 className="text-6xl font-bold">
                 Your Ideal Retreat for Comfort and Convenience
-              </h1>
+              </h2>
               <p className="text-3xl">
-                Welcome to a new standard of hospitality in Ikeja GRA. Ringruby
-                Hotel is a modern hotel located in the peaceful Ikeja GRA area
-                with few minutes' drive from the Murtala Muhammed Airport. It
-                offers a perfect environment for both business and leisure
-                travelers by combining comfort, functionality, and elegance. The
-                hotel features a variety of well-appointed rooms designed for
-                relaxation, including king-sized beds with luxurious bedding, a
-                coffee station with complimentary packages, air conditioning,
-                free Wi-Fi, flat-screen TVs, and ensuite bathrooms.
+                Set minutes from Murtala Muhammed Airport, Ringruby Hotel is built for travelers who need comfort without compromise, whether on business or leisure. Every room includes king-sized beds with premium bedding, a complimentary coffee station, air conditioning, free Wi-Fi, a flat-screen TV, and a private ensuite bathroom.
               </p>
             </div>
           </div>
@@ -63,16 +49,11 @@ export default function AboutMainSection() {
               data-component="Block2Text"
               className="flex flex-col gap-[1.8rem] font-secondary bg-[color:var(--background-color-2)] w-[100%] p-[12rem] max-md:p-[6rem] max-sm:p-[4rem]"
             >
-              <h1 className="text-6xl font-bold">
+              <h2 className="text-6xl font-bold">
                 Experience Tranquil Stays with Unmatched Security
-              </h1>
+              </h2>
               <p className="text-3xl">
-                Ringruby is a modern hotel located in the peaceful Ikeja GRA
-                area. We ensure a secure environment with advanced surveillance
-                systems and a dedicated team, providing peace of mind throughout
-                your stay. We offer more than just a place to stay; we provide a
-                luxurious experience marked by comfort, security, and
-                personalized service.
+                At Ringruby Oduduwa, security isn't an afterthought - advanced surveillance and a dedicated team keep the property watched at all times. The result is a stay built on comfort, safety, and service that genuinely pays attention.
               </p>
             </div>
             <div
@@ -92,18 +73,15 @@ export default function AboutMainSection() {
           className="bg-[color:var(--text-color)] p-[6rem] flex max-sm:flex-col gap-[6rem] text-[var(--white)] font-secondary"
         >
           <div className="flex flex-col gap-[1.8rem]">
-            <h1 className="text-6xl font-secondary font-bold">Our Vision</h1>
+            <h2 className="text-6xl font-secondary font-bold">Our Vision</h2>
             <p className="text-3xl">
-              To be an organically developed global hotel management company
-              that excels in its core components of place, service,
-              people and system.
+              We're working toward something larger than any single hotel - a group built organically, excelling in place, service, people, and system.
             </p>
           </div>
           <div className="flex flex-col gap-[1.8rem]">
-            <h1 className="text-6xl font-secondary font-bold">Our Mission</h1>
+            <h2 className="text-6xl font-secondary font-bold">Our Mission</h2>
             <p className="text-3xl">
-              Our mission is to be the most hospitable company in the world by
-              creating world-class experiences for guests.
+              At Ringruby Oduduwa, that translates into a clear promise: to be the most hospitable part of your stay in Lagos.
             </p>
           </div>
         </div>
