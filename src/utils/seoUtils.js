@@ -5,8 +5,8 @@ export const generateHotelSchema = (hotelData = {}) => {
     name: "Ring Ruby Hotel Oduduwa",
     description:
       "Luxury hotel accommodation at Ikeja GRA, Lagos. Experience comfort and excellent service at Ring Ruby Hotel Oduduwa.",
-    url: "https://ringrubyoduduwa.fivecloverhotels.com",
-    logo: "https://ringrubyoduduwa.fivecloverhotels.com/ring%20ruby%20logo.webp",
+    url: "https://oduduwa.ringrubyhotel.com",
+    logo: "https://oduduwa.ringrubyhotel.com/ring%20ruby%20logo.webp",
     priceRange: "$$",
     starRating: {
       "@type": "Rating",
@@ -60,13 +60,13 @@ export const generateBreadcrumbSchema = (items = []) => {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://ringrubyoduduwa.fivecloverhotels.com",
+      item: "https://oduduwa.ringrubyhotel.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Rooms",
-      item: "https://ringrubyoduduwa.fivecloverhotels.com/rooms",
+      item: "https://oduduwa.ringrubyhotel.com/rooms",
     },
   ];
 

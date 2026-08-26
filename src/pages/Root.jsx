@@ -228,7 +228,7 @@ export default function RootLayout() {
 
   // Get current page metadata
   const getPageMetadata = () => {
-    const baseUrl = "https://ringrubyoduduwa.fivecloverhotels.com";
+    const baseUrl = "https://oduduwa.ringrubyhotel.com";
     const defaultMetadata = {
       title:
         "Ring Ruby Hotel Oduduwa | Luxury Accommodation in Ikeja GRA, Lagos",
@@ -237,6 +237,7 @@ export default function RootLayout() {
       url: `${baseUrl}${location.pathname}`,
       type: "website",
       image: "/ring-ruby-logo.webp",
+      robots: "index, follow",
     };
 
     const pageMetadata = {
@@ -251,25 +252,16 @@ export default function RootLayout() {
         description:
           "Discover the story behind Ring Ruby Hotel Oduduwa and our commitment to providing exceptional hospitality in Ikeja GRA, Lagos.",
       },
-      "/rooms": {
-        title: "Our Rooms | Ring Ruby Hotel Oduduwa",
-        description:
-          "Explore our luxurious rooms at Ring Ruby Hotel Oduduwa, designed for your comfort and relaxation.",
-      },
-      "/gallery": {
-        title: "Photo Gallery | Ring Ruby Hotel Oduduwa",
-        description:
-          "View our photo gallery showcasing the luxurious facilities and comfortable accommodations at Ring Ruby Hotel Oduduwa.",
-      },
       "/contact": {
         title: "Contact Us | Ring Ruby Hotel Oduduwa",
         description:
           "Get in touch with Ring Ruby Hotel Oduduwa. Our friendly staff is ready to assist with your booking and inquiries.",
       },
-      "/booking": {
-        title: "Book Your Stay | Ring Ruby Hotel Oduduwa",
+      "/booking-confirmation": {
+        title: "Booking Confirmation | Ring Ruby Hotel Oduduwa",
         description:
-          "Book your luxurious stay at Ring Ruby Hotel Oduduwa. Best rates guaranteed for our premium accommodations in Ikeja GRA.",
+          "Your booking confirmation at Ring Ruby Hotel Oduduwa.",
+        robots: "noindex, follow",
       },
     };
 
@@ -289,6 +281,8 @@ export default function RootLayout() {
         <meta property="og:url" content={metadata.url} />
         <meta property="og:type" content={metadata.type} />
         <meta property="og:image" content={metadata.image} />
+        <meta name="robots" content={metadata.robots} />
+        <link rel="canonical" href={metadata.url} />
       </SafeHelmet>
       <SchemaMarkup branchId={branchId} />
       <header>{!isHome && <MainNavBar />}</header>
