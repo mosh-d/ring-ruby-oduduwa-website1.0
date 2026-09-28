@@ -12,7 +12,6 @@ const SEO = ({
   noindex = false,
 }) => {
   const siteName = "Ringruby Hotel Oduduwa";
-  const siteUrl = "https://oduduwa.ringrubyhotel.com";
   const twitterHandle = "@fivecloverhotel";
 
   return (
